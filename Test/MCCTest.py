@@ -18,10 +18,10 @@ class Test(unittest.TestCase):
         )
         preprocs = ModifiedClusterCentroids()
         X_new, y_new = preprocs.fit_resample(X,y)
-        self.assertNotEquals(X.shape[0], X_new.shape[0])
+        self.assertNotEqual(X.shape[0], X_new.shape[0])
         self.assertEqual(X.shape[1], X_new.shape[1])
-        self.assertNotEquals(X.shape[0], 0)
-        self.assertNotEquals(X.shape[1], 0)
+        self.assertNotEqual(X.shape[0], 0)
+        self.assertNotEqual(X.shape[1], 0)
 
 
         
