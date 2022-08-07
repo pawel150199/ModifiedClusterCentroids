@@ -17,7 +17,7 @@ class ModifiedClusterCentroids(ClusterMixin):
     max_eps -> parameter used in OPTICS method and define analyzing area (natively all area is analyzing)
 
     """
-    def __init__(self, CC_strategy, eps=0.5, metric='euclidean', algorithm='auto', min_samples=5, cluster_algorithm='DBSCAN', max_eps=np.inf):
+    def __init__(self, CC_strategy='auto', eps=0.5, metric='euclidean', algorithm='auto', min_samples=5, cluster_algorithm='DBSCAN', max_eps=np.inf):
         self.eps = eps
         self.cluster_algorithm = cluster_algorithm
         self.min_samples = min_samples
@@ -99,7 +99,7 @@ class ModifiedClusterCentroids(ClusterMixin):
 
         elif self.CC_strategy == 'auto':
             """
-            
+
             In case of 'auto' parameter algorithm choose reduction level by std value
 
             """
