@@ -2,14 +2,14 @@ version: 2.1
 
 jobs:
   build:
-    working_directory: ModifiedClusterCentroids/Main
+    working_directory: ./Main
     docker:
       - image: "circleci/python:3.9.9"
     steps:
       - checkout
       - run: python3 UseCase.py
   test:
-    working_directory: ModifiedClusterCentroids/Test
+    working_directory: ./Test
     docker:
       - image: "circleci/python:3.9.9"
     steps:
