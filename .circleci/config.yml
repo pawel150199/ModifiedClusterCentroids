@@ -7,18 +7,22 @@ jobs:
       - image: "circleci/python:3.9.9"
     steps:
       - checkout
-      - run: pip3 install numpy \
-        pip3 install sklearn \
-        python3 Main/UseCase.py
+      - run:
+          command: |
+            pip3 install numpy
+            pip3 install sklearn
+            python3 Main/UseCase.py
   test:
     working_directory: 
     docker:
       - image: "circleci/python:3.9.9"
     steps:
       - checkout
-      - run:  pip3 install numpy \
-        pip3 install sklearn \
-        python3 Test/MCCTest.py
+      - run:
+          command: |
+            pip3 install numpy
+            pip3 install sklearn
+            python3 Test/MCCTest.py
 
 workflows:
   build_and_test:
