@@ -2,14 +2,14 @@ version: 2.1
 
 jobs:
   build:
-    working_directory: ./
+    working_directory: 
     docker:
       - image: "circleci/python:3.9.9"
     steps:
       - checkout
       - run: python3 Main/UseCase.py
   test:
-    working_directory: ./
+    working_directory: 
     docker:
       - image: "circleci/python:3.9.9"
     steps:
