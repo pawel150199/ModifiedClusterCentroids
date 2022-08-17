@@ -2,7 +2,7 @@ import unittest
 import sys
 import numpy as np
 from sklearn.datasets import make_classification
-sys.path.append("/Users/pawelpolski/Desktop/ModifiedClusterCentroids/Main")
+sys.path.append("/Users/pawelpolski/Desktop/ModifiedClusterCentroids/Main/")
 from  ModifiedClusterCentroids import ModifiedClusterCentroids
 
 X,y = make_classification(
