@@ -2,19 +2,19 @@ version: 2.1
 
 jobs:
   build:
-    working_directory: /Users/pawelpolski/Desktop/ModifiedClusterCentroids/Main
+    working_directory: /Users/pawelpolski/Desktop/ModifiedClusterCentroids
     docker:
       - image: "circleci/python:3.9.9"
     steps:
       - checkout
-      - run: python3 UseCase.py
+      - run: python3 Main/UseCase.py
   test:
-    working_directory: /Users/pawelpolski/Desktop/ModifiedClusterCentroids/Test
+    working_directory: /Users/pawelpolski/Desktop/ModifiedClusterCentroids
     docker:
       - image: "circleci/python:3.9.9"
     steps:
       - checkout
-      - run: python3 MCCTest.py
+      - run: python3 Test/MCCTest.py
 
 workflows:
   build_and_test:
