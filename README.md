@@ -23,5 +23,3 @@
 - `min_samples` -> used by OPTICS and define minimal amount of samples
 - `metric` -> used by DBSCAN and define how to calculate distance between samples, natively use euclidean metric
 - `max_eps` -> used by OPTICS and define analyzing area, if max_eps is equal to infinity whole area will be analyzed
-
-## Comparision bac metric after predictions with diferent undersampling methods
