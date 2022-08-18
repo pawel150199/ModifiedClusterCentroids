@@ -1,4 +1,6 @@
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
-/appveyor/tests/:user/:repo
+/github/languages/top/:user/:repo
+/github/languages/code-size/:user/:repo
+/packagist/l/:user/:repo
 
 Own created, undersampling algorithm based on ClusterCentroid.
