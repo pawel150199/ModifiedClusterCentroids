@@ -7,8 +7,8 @@
 ## Usage algorithm
 ![image](https://user-images.githubusercontent.com/41188005/185382409-c7234cc9-516d-4d8e-8a78-6ac90fd0def4.png)
 
-## Visualization of usage ModifiedClusterCentroids
-![image](https://user-images.githubusercontent.com/41188005/185381188-75655b90-3655-4430-815e-0a6b37bd0dc5.png)
+## Visualization of usage ModifiedClusterCentroids and comparision between other well known undersampling methods
+![image](https://user-images.githubusercontent.com/41188005/185445291-27247f31-d4b3-4e97-aaa0-335319dfda94.png)
 
 ## Description
 `ModifiedClusterCentroids` is an algorithm based on ClusterCentroid algorithm and increase effectiveness of selecting samples from original dataset.
@@ -24,4 +24,4 @@
 - `metric` -> used by DBSCAN and define how to calculate distance between samples, natively use euclidean metric
 - `max_eps` -> used by OPTICS and define analyzing area, if max_eps is equal to infinity whole area will be analyzed
 
-## Comparision with well known undersampling algorithms
+## Comparision bac metric after predictions with diferent undersampling methods
