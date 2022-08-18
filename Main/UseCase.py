@@ -62,6 +62,6 @@ ax[0,2].set_xlabel('Feature 0')
 ax[0,2].set_ylabel('Feature 1')
 ax[0,2].set_title('After Undersampling - OPTICS-const')
 
-# Safe plot image
+# Save plot image
 plt.tight_layout()
 plt.savefig('Images/comparision_own_algorithms.png')
