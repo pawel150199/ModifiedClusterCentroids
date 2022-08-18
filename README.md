@@ -13,15 +13,15 @@
 ## Description
 `ModifiedClusterCentroids` is an algorithm based on ClusterCentroid algorithm and increase effectiveness of selecting samples from original dataset.
 ### Parameters available in this algorithm:
-- CC_strategy:
-  * 'const' -> reduce major class to minor ones
-  * 'auto' -> reduce major class using std calculate per cluster
-- cluster_algorithm:
-  * 'DBSCAN' -> used by DBSACAN algorithm to detect clusters from original dataset
-  * 'OPTICS' -> used by OPTICS algorithm to detect clusters from original dataset
-- eps -> define cluster  size, used by DBSCAN
-- min_samples -> used by OPTICS and define minimal amount of samples
-- metric -> used by DBSCAN and define how to calculate distance between samples, natively use euclidean metric
-- max_eps -> used by OPTICS and define analyzing area, if max_eps is equal to infinity whole area will be analyzed
+- `CC_strategy`:
+  * `const` -> reduce major class to minor ones
+  * `auto` -> reduce major class using std calculate per cluster
+- `cluster_algorithm`:
+  * `DBSCAN` -> used by DBSACAN algorithm to detect clusters from original dataset
+  * `OPTICS` -> used by OPTICS algorithm to detect clusters from original dataset
+- `eps` -> define cluster  size, used by DBSCAN
+- `min_samples` -> used by OPTICS and define minimal amount of samples
+- `metric` -> used by DBSCAN and define how to calculate distance between samples, natively use euclidean metric
+- `max_eps` -> used by OPTICS and define analyzing area, if max_eps is equal to infinity whole area will be analyzed
 
 ## Comparision with well known undersampling algorithms
