@@ -49,7 +49,7 @@ ax[0,0].set_xlim(-4,4)
 ax[0,0].set_ylim(-4,4)
 ax[0,0].set_xlabel('Feature 0')
 ax[0,0].set_ylabel('Feature 1')
-ax[0,0].set_title('Before Undersampling - MCC DBSCAN')
+ax[0,0].set_title('Before Undersampling')
 
 # After undersampling DBSCAN - auto
 ax[0,1].scatter(*X_auto.T, c=y_auto)
