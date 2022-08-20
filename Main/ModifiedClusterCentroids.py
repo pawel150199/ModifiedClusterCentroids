@@ -154,4 +154,4 @@ class ModifiedClusterCentroids(ClusterMixin):
                 return X_resampled, y_resampled 
 
         else:
-            raise ValueError("Incorrect CC_strategy!")  
+            raise ValueError("Incorrect CC_strategy!")
