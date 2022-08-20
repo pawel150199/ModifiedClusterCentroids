@@ -14,7 +14,7 @@
 `ModifiedClusterCentroids` is an algorithm based on ClusterCentroid algorithm and increase effectiveness of selecting samples from original dataset.
 ### How it works?
 - Original dataset is dividing to separate clusters
-- If `CC_strategy` is equal `const` then amount of sample reduced in each cluster will be calculate by apriori probability, but at the end majority class will be reduced to minority class with minimal margin of error. If `CC_strategy` is equal `auto` then amount of sample reduced in each cluster will be calculated using std value for each cluster, but finally amount of samples which will left depends on std.
+- If `CC_strategy` is equal `const` then amount of samples reduced in each cluster will be calculate by apriori probability, but at the end majority class will be reduced to minority class with minimal margin of error. If `CC_strategy` is equal `auto` then amount of samples reduced in each cluster will be calculated using std value for each cluster, but finally amount of samples which will left depends on std.
 - Finally output is an numpy array and returned dataset is smaller than original but basically can be more efficient in estimation than original.
 ### Parameters available in this algorithm:
 - `CC_strategy`:
