@@ -1,6 +1,6 @@
 # ModifiedClusterCentroids
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+![CircleCI](https://img.shields.io/circleci/build/github/pawel150199/ModifiedClusterCentroids)
 ![GitHub top language](https://img.shields.io/github/languages/top/pawel150199/ModifiedClusterCentroids)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pawel150199/ModifiedClusterCentroids)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pawel150199/ModifiedClusterCentroids)
