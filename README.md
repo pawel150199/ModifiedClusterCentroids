@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/41188005/185382409-c7234cc9-516d-4d8e-8a78-6ac90fd0def4.png)
 
 ## Visualization of usage ModifiedClusterCentroids and comparision between other well known undersampling methods
-![image](https://user-images.githubusercontent.com/41188005/185744439-cac65587-e2d7-4f7e-aecf-a0252ecf791b.png)
+![image](https://user-images.githubusercontent.com/41188005/185745359-9ad036e2-e859-41b4-a6af-3688a69112d4.png)
 
 ## Description
 `ModifiedClusterCentroids` is an algorithm based on ClusterCentroid algorithm and increase effectiveness of selecting samples from original dataset.
